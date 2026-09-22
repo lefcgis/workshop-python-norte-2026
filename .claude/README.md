@@ -96,8 +96,20 @@ equivalente directo, y sin límites oficiales no hay nada que consultar.
 Ninguna de las cuatro lanza una excepción. Todas producen resultados que parecen
 correctos y no lo son, y por eso se revisan explícitamente en cada entrega.
 
+## Dependencia propia: `geoperu-py`
+
+El riesgo R1 —«`geoperu` es R y no tiene puerto Python»— está **resuelto**.
+El repositorio incluye `geoperu-py/`, puerto a Python del paquete, sin
+dependencias externas (lee GeoPackage con `sqlite3` y trae su propio lector de
+WKB), con catálogo congelado, caché con huella SHA-256, CLI y 127 pruebas.
+
+El plugin lo **incrusta** en `nucleo/vendor/geoperu/` en lugar de declararlo
+como dependencia: así el usuario no necesita ejecutar ningún `pip install`,
+que es el requisito R2. Los arreglos van al paquete, nunca a la copia.
+
 ## Estado actual
 
-Sistema de agentes, skills y contratos: **listos**. Código del plugin: **no
-iniciado** — todas las filas de la matriz de paridad están en `pendiente`.
+Sistema de agentes, skills y contratos: **listos**. Dependencia de límites
+INEI (`geoperu-py`): **lista y probada**. Código del plugin: **no iniciado**
+— todas las filas de la matriz de paridad están en `pendiente`.
 Punto de partida: `/peruocc-qgis H1`.

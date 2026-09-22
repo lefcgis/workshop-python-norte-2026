@@ -93,7 +93,7 @@ Un puerto literal sería un desperdicio. Lo que QGIS agrega sobre R:
 
 | # | Riesgo | Decisión tomada |
 |---|---|---|
-| R1 | **`geoperu` es R.** No hay puerto Python del proveedor de límites INEI. | El plugin define una interfaz `ProveedorLimites` con tres estrategias: GeoPackage empaquetado/descargado, servicio remoto, y capa provista por el usuario. Es el riesgo técnico #1 y se resuelve primero (hito H1). |
+| R1 | ~~**`geoperu` es R.** No hay puerto Python del proveedor de límites INEI.~~ **RESUELTO.** | Se escribió **`geoperu-py`** (ver `geoperu-py/`), puerto a Python del paquete, sin dependencias externas: lee GeoPackage con `sqlite3` y trae su propio lector de WKB. El plugin lo incrusta en `nucleo/limites.py`. El catálogo de datos va congelado dentro del paquete y se revisa una vez al año. |
 | R2 | **Sin dependencias externas.** Un `pip install` dentro de QGIS es inaceptable para el usuario institucional. | Solo stdlib de Python 3.12 + API de QGIS/Qt5. Geometría con `QgsGeometry`, red con `QgsBlockingNetworkRequest` (respeta el proxy configurado en QGIS). Nada de `geopandas`, `shapely`, `requests`, `rgbif`. |
 | R3 | **Las APIs cambian y tienen techos duros.** GBIF corta en 100 000 registros; iNaturalist en 10 000 por consulta. | Los techos viven en `contratos/parametros_defecto.json`. Al excederlos el plugin **no trunca en silencio**: informa y propone descarga citable o partición temporal, igual que hace `peruocc`. |
 | R4 | **Congelar la UI de QGIS mata la adopción.** Una consulta provincial son decenas de llamadas HTTP. | Toda I/O dentro de `QgsTask`. Ningún acceso a red en el hilo principal. Cancelación real, no cosmética. |

@@ -1,0 +1,82 @@
+name: revisión anual del catálogo
+
+on:
+  schedule:
+    # 15 de enero, 06:00 UTC: después de que el INEI publique cambios del año.
+    - cron: "0 6 15 1 *"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Etiqueta del catálogo, p. ej. 2027.1"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: python -m pip install -e ".[dev]"
+
+      - name: Determinar la etiqueta
+        id: etiqueta
+        run: |
+          if [ -n "${{ inputs.version }}" ]; then
+            echo "valor=${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "valor=$(date -u +%Y).1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Regenerar el catálogo desde el origen
+        id: regenerar
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.etiqueta.outputs.valor }}"
+          DESTINO="src/geoperu/datos/catalogo_${VERSION%%.*}.json"
+
+          # Se respalda el catálogo vigente ANTES de regenerar: si la revisión
+          # es del mismo año, el destino es el propio archivo anterior y sin
+          # la copia la comparación se haría contra el ya sobrescrito.
+          RESPALDO="$(mktemp)"
+          ANTERIOR="$(ls src/geoperu/datos/catalogo_*.json | sort | tail -1)"
+          cp "$ANTERIOR" "$RESPALDO"
+
+          python -m geoperu catalogo --refrescar --version "$VERSION" --guardar "$DESTINO"
+          python .github/comparar_catalogos.py "$RESPALDO" "$DESTINO" >> "$GITHUB_OUTPUT"
+
+      - name: Comprobar que el catálogo nuevo funciona
+        run: |
+          python -m pytest -m "not red" -q
+          python -m pytest -m red -q
+          python -m geoperu info
+
+      - name: Abrir pull request si el origen cambió
+        if: steps.regenerar.outputs.cambio == 'si'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: catalogo/${{ steps.etiqueta.outputs.valor }}
+          title: "Catálogo de datos ${{ steps.etiqueta.outputs.valor }}"
+          commit-message: "Actualizar el catálogo de datos a ${{ steps.etiqueta.outputs.valor }}"
+          body: |
+            Revisión anual del catálogo, regenerada desde el origen.
+
+            - Altas: ${{ steps.regenerar.outputs.altas }}
+            - Bajas: ${{ steps.regenerar.outputs.bajas }}
+
+            Las pruebas sin red y las de red pasaron con el catálogo nuevo.
+
+            **Antes de fusionar:** si hay bajas, confirmar que no sea una caída
+            temporal del origen. Un catálogo al que le faltan entradas rompe a
+            los consumidores de forma silenciosa.
+
+      - name: Informar que no hubo cambios
+        if: steps.regenerar.outputs.cambio != 'si'
+        run: echo "El origen no cambió; no hay nada que actualizar."

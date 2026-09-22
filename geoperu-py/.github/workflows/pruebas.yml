@@ -1,0 +1,59 @@
+name: pruebas
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pruebas:
+    runs-on: ${{ matrix.so }}
+    strategy:
+      fail-fast: false
+      matrix:
+        # 3.9 es el mínimo declarado; 3.12 es el que trae QGIS 3.44 LTR,
+        # que es el consumidor para el que se diseñó el paquete.
+        python: ["3.9", "3.12", "3.13"]
+        so: [ubuntu-latest]
+        include:
+          - { python: "3.12", so: windows-latest }
+          - { python: "3.12", so: macos-latest }
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Instalar
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Pruebas sin red
+        run: python -m pytest -m "not red" -q
+
+      - name: Verificar que no haya dependencias externas
+        # La restricción que da sentido al paquete: si entra una dependencia,
+        # deja de poder incrustarse en un plugin de QGIS.
+        run: python -m pytest -q -k sin_dependencias_externas
+
+      - name: Comprobar el CLI
+        run: |
+          python -m geoperu info
+          python -m geoperu listar --nivel dep
+
+  red:
+    # Aparte y sin bloquear: confirma que el origen de datos sigue vigente.
+    # Un fallo aquí no significa que el código esté mal.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -e ".[dev]"
+      - run: python -m pytest -m red -q

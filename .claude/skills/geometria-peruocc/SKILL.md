@@ -7,6 +7,13 @@ description: Operaciones geométricas del flujo peruocc reimplementadas con PyQG
 
 Reemplaza `sf` por `QgsGeometry`. Sin `shapely`, sin `geopandas`.
 
+> **Los límites administrativos ya están resueltos.** No implementes la
+> obtención de polígonos INEI: usa `geoperu-py` (ver `geoperu-py/README.md`).
+> Entrega el WKB crudo, y el polígono provincial **ya viene disuelto** desde
+> el origen, así que la disolución de la fila A2 no requiere ninguna operación
+> geométrica. Esta skill cubre lo que sí es tuyo: CCW, presupuesto de WKT,
+> teselado y filtro exacto.
+
 ## 1. Zona UTM automática (clave: medir en metros, no en grados)
 
 `peruocc` calcula la zona UTM desde el centroide y trabaja allí. Simplificar o

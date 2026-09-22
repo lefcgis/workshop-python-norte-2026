@@ -12,23 +12,40 @@ Carga las skills **`geometria-peruocc`** y **`peruocc-dominio`**. Eres dueño de
 `nucleo/validacion_espacial.py`. Cubres las filas **A, B y D1** de la matriz de
 paridad.
 
-## Tu primera tarea es el riesgo R1
+## El riesgo R1 ya está resuelto: usa `geoperu-py`
 
-`geoperu` es R y **no tiene puerto Python**. Sin límites oficiales INEI no hay
-producto. Resuelve `ProveedorLimites` antes que nada, con tres estrategias tras una
-interfaz común:
+No escribas un proveedor de límites desde cero. El repositorio incluye
+**`geoperu-py/`**, puerto a Python del paquete R `geoperu`, sin dependencias
+externas y con pruebas. Ya resuelve las filas A1–A6:
 
-1. **GeoPackage local** — empaquetado o descargado al primer uso. Predecible y
-   funciona sin red tras la primera vez. Requiere decidir origen y peso.
-2. **Servicio remoto** — descarga por departamento, como hace `geoperu`. Sin peso
-   en el ZIP, pero dependiente de red y de que el origen siga vivo.
-3. **Capa del usuario** — el usuario señala su propia capa de distritos y se mapean
-   los campos. Siempre debe existir: es la salida cuando 1 y 2 fallan.
+```python
+geoperu.obtener_distritos("Amazonas")                      # los 84 distritos
+geoperu.obtener_distrito("Chachapoyas", departamento="Amazonas")
+geoperu.obtener_provincia("Chachapoyas", departamento="Amazonas")  # ya disuelta
+geoperu.normalizar("Madre de Dios")                        # -> "MADRE DE DIOS"
+geoperu.DEPARTAMENTOS                                      # los 25 oficiales
+```
 
-Evalúa origen, licencia, peso y vigencia de los datos INEI, **documenta la decisión
-con su justificación** y llévala al orquestador. No elijas en silencio: esta
-decisión afecta el tamaño del ZIP, la política de privacidad de red del plugin y su
-mantenimiento a años vista.
+**No hace falta disolver provincias.** El origen publica el polígono
+provincial ya disuelto (`simplificado=True`), que es justo para lo que
+`peruocc` usaba `st_union()`. Esa es la razón de que el paquete pueda existir
+sin GEOS. La fila A2 se cumple sin operación geométrica alguna.
+
+Tu trabajo en H1 es el **envoltorio**, en `nucleo/limites.py`:
+
+1. `geoperu.establecer_transporte()` con `QgsBlockingNetworkRequest`, para
+   respetar el proxy configurado en QGIS.
+2. `GEOPERU_CACHE` apuntando al directorio del plugin.
+3. `QgsGeometry.fromWkb(QByteArray(rasgo.wkb))` — el paquete entrega WKB
+   crudo para no pagar una conversión a texto que no hace falta.
+4. Traducir sus excepciones (`GeografiaNoEncontrada` con sugerencias,
+   `UnidadAmbigua`, `ErrorDescarga`) a mensajes accionables del plugin.
+5. La estrategia de respaldo que `geoperu-py` no cubre: **capa de distritos
+   provista por el usuario**, para cuando no hay red o el origen cambió.
+
+La copia vive en `nucleo/vendor/geoperu/` y **no se edita ahí**: los arreglos
+van al paquete, en `geoperu-py/`, con su prueba. Editar la copia es perder el
+cambio al siguiente refresco.
 
 ## Lo que replicas con exactitud numérica
 

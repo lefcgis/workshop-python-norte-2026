@@ -1,0 +1,4480 @@
+{
+  "version": "2026.1",
+  "generado_en_utc": "2026-09-22T03:22:02+00:00",
+  "origen": {
+    "metadatos_limites": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/metadata_peru_gpkg.csv",
+    "metadatos_anp": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/metadata_anp.csv"
+  },
+  "entradas": [
+    {
+      "departamento": "AMAZONAS",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_amazonas.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_amazonas_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_ancash.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_ancash_simplified.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_apurimac.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_apurimac_simplified.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_arequipa.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_arequipa_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_ayacucho.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_ayacucho_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_cajamarca.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_cajamarca_simplified.gpkg"
+    },
+    {
+      "departamento": "CALLAO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_callao.gpkg"
+    },
+    {
+      "departamento": "CALLAO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_callao_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_cusco.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_cusco_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_huancavelica.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_huancavelica_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_huanuco.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_huanuco_simplified.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_ica.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_ica_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_junin.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_junin_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_la_libertad.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_la_libertad_simplified.gpkg"
+    },
+    {
+      "departamento": "LAMBAYEQUE",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_lambayeque.gpkg"
+    },
+    {
+      "departamento": "LAMBAYEQUE",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_lambayeque_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_lima.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_lima_simplified.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_loreto.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_loreto_simplified.gpkg"
+    },
+    {
+      "departamento": "MADRE DE DIOS",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_madre_de_dios.gpkg"
+    },
+    {
+      "departamento": "MADRE DE DIOS",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_madre_de_dios_simplified.gpkg"
+    },
+    {
+      "departamento": "MOQUEGUA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_moquegua.gpkg"
+    },
+    {
+      "departamento": "MOQUEGUA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_moquegua_simplified.gpkg"
+    },
+    {
+      "departamento": "PASCO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_pasco.gpkg"
+    },
+    {
+      "departamento": "PASCO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_pasco_simplified.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_piura.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_piura_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_puno.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_puno_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_san_martin.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_san_martin_simplified.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_tacna.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_tacna_simplified.gpkg"
+    },
+    {
+      "departamento": "TUMBES",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_tumbes.gpkg"
+    },
+    {
+      "departamento": "TUMBES",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_tumbes_simplified.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_ucayali.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": null,
+      "nivel": "departamento",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/dep_ucayali_simplified.gpkg"
+    },
+    {
+      "departamento": null,
+      "provincia": null,
+      "nivel": "nacional",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/nan_peru.gpkg"
+    },
+    {
+      "departamento": null,
+      "provincia": null,
+      "nivel": "nacional",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/nan_peru_simplified.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "BAGUA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_bagua.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "BAGUA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_bagua_simplified.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "BONGARA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_bongara.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "BONGARA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_bongara_simplified.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "CHACHAPOYAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_chachapoyas.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "CHACHAPOYAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_chachapoyas_simplified.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "CONDORCANQUI",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_condorcanqui.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "CONDORCANQUI",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_condorcanqui_simplified.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "LUYA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_luya.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "LUYA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_luya_simplified.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "RODRIGUEZ DE MENDOZA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_rodriguez_de_mendoza.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "RODRIGUEZ DE MENDOZA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_rodriguez_de_mendoza_simplified.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "UTCUBAMBA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_utcubamba.gpkg"
+    },
+    {
+      "departamento": "AMAZONAS",
+      "provincia": "UTCUBAMBA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_amazonas_utcubamba_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "AIJA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_aija.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "AIJA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_aija_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "ANTONIO RAYMONDI",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_antonio_raymondi.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "ANTONIO RAYMONDI",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_antonio_raymondi_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "ASUNCION",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_asuncion.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "ASUNCION",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_asuncion_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "BOLOGNESI",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_bolognesi.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "BOLOGNESI",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_bolognesi_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "CARHUAZ",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_carhuaz.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "CARHUAZ",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_carhuaz_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "CARLOS FERMIN FITZCARRALD",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_carlos_fermin_fitzcarrald.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "CARLOS FERMIN FITZCARRALD",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_carlos_fermin_fitzcarrald_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "CASMA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_casma.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "CASMA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_casma_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "CORONGO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_corongo.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "CORONGO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_corongo_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "HUARAZ",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_huaraz.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "HUARAZ",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_huaraz_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "HUARI",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_huari.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "HUARI",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_huari_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "HUARMEY",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_huarmey.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "HUARMEY",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_huarmey_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "HUAYLAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_huaylas.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "HUAYLAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_huaylas_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "MARISCAL LUZURIAGA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_mariscal_luzuriaga.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "MARISCAL LUZURIAGA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_mariscal_luzuriaga_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "OCROS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_ocros.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "OCROS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_ocros_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "PALLASCA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_pallasca.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "PALLASCA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_pallasca_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "POMABAMBA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_pomabamba.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "POMABAMBA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_pomabamba_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "RECUAY",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_recuay.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "RECUAY",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_recuay_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "SANTA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_santa.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "SANTA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_santa_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "SIHUAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_sihuas.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "SIHUAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_sihuas_simplified.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "YUNGAY",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_yungay.gpkg"
+    },
+    {
+      "departamento": "ANCASH",
+      "provincia": "YUNGAY",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ancash_yungay_simplified.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "ABANCAY",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_abancay.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "ABANCAY",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_abancay_simplified.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "ANDAHUAYLAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_andahuaylas.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "ANDAHUAYLAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_andahuaylas_simplified.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "ANTABAMBA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_antabamba.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "ANTABAMBA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_antabamba_simplified.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "AYMARAES",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_aymaraes.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "AYMARAES",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_aymaraes_simplified.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "CHINCHEROS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_chincheros.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "CHINCHEROS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_chincheros_simplified.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "COTABAMBAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_cotabambas.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "COTABAMBAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_cotabambas_simplified.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "GRAU",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_grau.gpkg"
+    },
+    {
+      "departamento": "APURIMAC",
+      "provincia": "GRAU",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_apurimac_grau_simplified.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "AREQUIPA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_arequipa.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "AREQUIPA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_arequipa_simplified.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CAMANA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_camana.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CAMANA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_camana_simplified.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CARAVELI",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_caraveli.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CARAVELI",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_caraveli_simplified.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CASTILLA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_castilla.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CASTILLA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_castilla_simplified.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CAYLLOMA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_caylloma.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CAYLLOMA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_caylloma_simplified.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CONDESUYOS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_condesuyos.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "CONDESUYOS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_condesuyos_simplified.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "ISLAY",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_islay.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "ISLAY",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_islay_simplified.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "LA UNION",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_la_union.gpkg"
+    },
+    {
+      "departamento": "AREQUIPA",
+      "provincia": "LA UNION",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_arequipa_la_union_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "CANGALLO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_cangallo.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "CANGALLO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_cangallo_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "HUAMANGA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_huamanga.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "HUAMANGA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_huamanga_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "HUANCA SANCOS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_huanca_sancos.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "HUANCA SANCOS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_huanca_sancos_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "HUANTA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_huanta.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "HUANTA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_huanta_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "LA MAR",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_la_mar.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "LA MAR",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_la_mar_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "LUCANAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_lucanas.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "LUCANAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_lucanas_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "PARINACOCHAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_parinacochas.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "PARINACOCHAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_parinacochas_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "PAUCAR DEL SARA SARA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_paucar_del_sara_sara.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "PAUCAR DEL SARA SARA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_paucar_del_sara_sara_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "SUCRE",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_sucre.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "SUCRE",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_sucre_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "VICTOR FAJARDO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_victor_fajardo.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "VICTOR FAJARDO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_victor_fajardo_simplified.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "VILCAS HUAMAN",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_vilcas_huaman.gpkg"
+    },
+    {
+      "departamento": "AYACUCHO",
+      "provincia": "VILCAS HUAMAN",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ayacucho_vilcas_huaman_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CAJABAMBA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_cajabamba.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CAJABAMBA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_cajabamba_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CAJAMARCA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_cajamarca.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CAJAMARCA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_cajamarca_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CELENDIN",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_celendin.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CELENDIN",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_celendin_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CHOTA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_chota.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CHOTA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_chota_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CONTUMAZA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_contumaza.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CONTUMAZA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_contumaza_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CUTERVO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_cutervo.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "CUTERVO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_cutervo_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "HUALGAYOC",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_hualgayoc.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "HUALGAYOC",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_hualgayoc_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "JAEN",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_jaen.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "JAEN",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_jaen_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SAN IGNACIO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_san_ignacio.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SAN IGNACIO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_san_ignacio_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SAN MARCOS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_san_marcos.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SAN MARCOS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_san_marcos_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SAN MIGUEL",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_san_miguel.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SAN MIGUEL",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_san_miguel_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SAN PABLO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_san_pablo.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SAN PABLO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_san_pablo_simplified.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SANTA CRUZ",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_santa_cruz.gpkg"
+    },
+    {
+      "departamento": "CAJAMARCA",
+      "provincia": "SANTA CRUZ",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cajamarca_santa_cruz_simplified.gpkg"
+    },
+    {
+      "departamento": "CALLAO",
+      "provincia": "CALLAO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_callao_callao.gpkg"
+    },
+    {
+      "departamento": "CALLAO",
+      "provincia": "CALLAO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_callao_callao_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "ACOMAYO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_acomayo.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "ACOMAYO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_acomayo_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "ANTA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_anta.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "ANTA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_anta_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CALCA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_calca.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CALCA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_calca_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CANAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_canas.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CANAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_canas_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CANCHIS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_canchis.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CANCHIS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_canchis_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CHUMBIVILCAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_chumbivilcas.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CHUMBIVILCAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_chumbivilcas_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CUSCO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_cusco.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "CUSCO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_cusco_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "ESPINAR",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_espinar.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "ESPINAR",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_espinar_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "LA CONVENCION",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_la_convencion.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "LA CONVENCION",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_la_convencion_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "PARURO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_paruro.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "PARURO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_paruro_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "PAUCARTAMBO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_paucartambo.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "PAUCARTAMBO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_paucartambo_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "QUISPICANCHI",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_quispicanchi.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "QUISPICANCHI",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_quispicanchi_simplified.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "URUBAMBA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_urubamba.gpkg"
+    },
+    {
+      "departamento": "CUSCO",
+      "provincia": "URUBAMBA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_cusco_urubamba_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "ACOBAMBA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_acobamba.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "ACOBAMBA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_acobamba_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "ANGARAES",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_angaraes.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "ANGARAES",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_angaraes_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "CASTROVIRREYNA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_castrovirreyna.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "CASTROVIRREYNA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_castrovirreyna_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "CHURCAMPA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_churcampa.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "CHURCAMPA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_churcampa_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "HUANCAVELICA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_huancavelica.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "HUANCAVELICA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_huancavelica_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "HUAYTARA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_huaytara.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "HUAYTARA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_huaytara_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "TAYACAJA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_tayacaja.gpkg"
+    },
+    {
+      "departamento": "HUANCAVELICA",
+      "provincia": "TAYACAJA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huancavelica_tayacaja_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "AMBO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_ambo.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "AMBO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_ambo_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "DOS DE MAYO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_dos_de_mayo.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "DOS DE MAYO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_dos_de_mayo_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "HUACAYBAMBA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_huacaybamba.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "HUACAYBAMBA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_huacaybamba_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "HUAMALIES",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_huamalies.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "HUAMALIES",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_huamalies_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "HUANUCO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_huanuco.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "HUANUCO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_huanuco_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "LAURICOCHA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_lauricocha.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "LAURICOCHA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_lauricocha_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "LEONCIO PRADO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_leoncio_prado.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "LEONCIO PRADO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_leoncio_prado_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "MARAÑON",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_marañon.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "MARAÑON",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_marañon_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "PACHITEA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_pachitea.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "PACHITEA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_pachitea_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "PUERTO INCA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_puerto_inca.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "PUERTO INCA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_puerto_inca_simplified.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "YAROWILCA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_yarowilca.gpkg"
+    },
+    {
+      "departamento": "HUANUCO",
+      "provincia": "YAROWILCA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_huanuco_yarowilca_simplified.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "CHINCHA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_chincha.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "CHINCHA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_chincha_simplified.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "ICA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_ica.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "ICA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_ica_simplified.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "NASCA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_nasca.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "NASCA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_nasca_simplified.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "PALPA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_palpa.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "PALPA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_palpa_simplified.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "PISCO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_pisco.gpkg"
+    },
+    {
+      "departamento": "ICA",
+      "provincia": "PISCO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ica_pisco_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "CHANCHAMAYO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_chanchamayo.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "CHANCHAMAYO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_chanchamayo_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "CHUPACA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_chupaca.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "CHUPACA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_chupaca_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "CONCEPCION",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_concepcion.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "CONCEPCION",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_concepcion_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "HUANCAYO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_huancayo.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "HUANCAYO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_huancayo_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "JAUJA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_jauja.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "JAUJA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_jauja_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "JUNIN",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_junin.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "JUNIN",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_junin_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "SATIPO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_satipo.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "SATIPO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_satipo_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "TARMA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_tarma.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "TARMA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_tarma_simplified.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "YAULI",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_yauli.gpkg"
+    },
+    {
+      "departamento": "JUNIN",
+      "provincia": "YAULI",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_junin_yauli_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "ASCOPE",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_ascope.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "ASCOPE",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_ascope_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "BOLIVAR",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_bolivar.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "BOLIVAR",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_bolivar_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "CHEPEN",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_chepen.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "CHEPEN",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_chepen_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "GRAN CHIMU",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_gran_chimu.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "GRAN CHIMU",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_gran_chimu_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "JULCAN",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_julcan.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "JULCAN",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_julcan_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "OTUZCO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_otuzco.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "OTUZCO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_otuzco_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "PACASMAYO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_pacasmayo.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "PACASMAYO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_pacasmayo_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "PATAZ",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_pataz.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "PATAZ",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_pataz_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "SANCHEZ CARRION",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_sanchez_carrion.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "SANCHEZ CARRION",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_sanchez_carrion_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "SANTIAGO DE CHUCO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_santiago_de_chuco.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "SANTIAGO DE CHUCO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_santiago_de_chuco_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "TRUJILLO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_trujillo.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "TRUJILLO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_trujillo_simplified.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "VIRU",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_viru.gpkg"
+    },
+    {
+      "departamento": "LA LIBERTAD",
+      "provincia": "VIRU",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_la_libertad_viru_simplified.gpkg"
+    },
+    {
+      "departamento": "LAMBAYEQUE",
+      "provincia": "CHICLAYO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lambayeque_chiclayo.gpkg"
+    },
+    {
+      "departamento": "LAMBAYEQUE",
+      "provincia": "CHICLAYO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lambayeque_chiclayo_simplified.gpkg"
+    },
+    {
+      "departamento": "LAMBAYEQUE",
+      "provincia": "FERREÑAFE",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lambayeque_ferreñafe.gpkg"
+    },
+    {
+      "departamento": "LAMBAYEQUE",
+      "provincia": "FERREÑAFE",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lambayeque_ferreñafe_simplified.gpkg"
+    },
+    {
+      "departamento": "LAMBAYEQUE",
+      "provincia": "LAMBAYEQUE",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lambayeque_lambayeque.gpkg"
+    },
+    {
+      "departamento": "LAMBAYEQUE",
+      "provincia": "LAMBAYEQUE",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lambayeque_lambayeque_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "BARRANCA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_barranca.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "BARRANCA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_barranca_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "CAJATAMBO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_cajatambo.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "CAJATAMBO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_cajatambo_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "CANTA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_canta.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "CANTA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_canta_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "CAÑETE",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_cañete.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "CAÑETE",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_cañete_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "HUARAL",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_huaral.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "HUARAL",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_huaral_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "HUAROCHIRI",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_huarochiri.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "HUAROCHIRI",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_huarochiri_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "HUAURA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_huaura.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "HUAURA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_huaura_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "LIMA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_lima.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "LIMA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_lima_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "OYON",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_oyon.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "OYON",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_oyon_simplified.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "YAUYOS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_yauyos.gpkg"
+    },
+    {
+      "departamento": "LIMA",
+      "provincia": "YAUYOS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_lima_yauyos_simplified.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "ALTO AMAZONAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_alto_amazonas.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "ALTO AMAZONAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_alto_amazonas_simplified.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "DATEM DEL MARAÑON",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_datem_del_marañon.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "DATEM DEL MARAÑON",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_datem_del_marañon_simplified.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "LORETO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_loreto.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "LORETO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_loreto_simplified.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "MARISCAL RAMON CASTILLA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_mariscal_ramon_castilla.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "MARISCAL RAMON CASTILLA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_mariscal_ramon_castilla_simplified.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "MAYNAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_maynas.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "MAYNAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_maynas_simplified.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "PUTUMAYO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_putumayo.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "PUTUMAYO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_putumayo_simplified.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "REQUENA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_requena.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "REQUENA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_requena_simplified.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "UCAYALI",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_ucayali.gpkg"
+    },
+    {
+      "departamento": "LORETO",
+      "provincia": "UCAYALI",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_loreto_ucayali_simplified.gpkg"
+    },
+    {
+      "departamento": "MADRE DE DIOS",
+      "provincia": "MANU",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_madre_de_dios_manu.gpkg"
+    },
+    {
+      "departamento": "MADRE DE DIOS",
+      "provincia": "MANU",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_madre_de_dios_manu_simplified.gpkg"
+    },
+    {
+      "departamento": "MADRE DE DIOS",
+      "provincia": "TAHUAMANU",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_madre_de_dios_tahuamanu.gpkg"
+    },
+    {
+      "departamento": "MADRE DE DIOS",
+      "provincia": "TAHUAMANU",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_madre_de_dios_tahuamanu_simplified.gpkg"
+    },
+    {
+      "departamento": "MADRE DE DIOS",
+      "provincia": "TAMBOPATA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_madre_de_dios_tambopata.gpkg"
+    },
+    {
+      "departamento": "MADRE DE DIOS",
+      "provincia": "TAMBOPATA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_madre_de_dios_tambopata_simplified.gpkg"
+    },
+    {
+      "departamento": "MOQUEGUA",
+      "provincia": "GENERAL SANCHEZ CERRO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_moquegua_general_sanchez_cerro.gpkg"
+    },
+    {
+      "departamento": "MOQUEGUA",
+      "provincia": "GENERAL SANCHEZ CERRO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_moquegua_general_sanchez_cerro_simplified.gpkg"
+    },
+    {
+      "departamento": "MOQUEGUA",
+      "provincia": "ILO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_moquegua_ilo.gpkg"
+    },
+    {
+      "departamento": "MOQUEGUA",
+      "provincia": "ILO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_moquegua_ilo_simplified.gpkg"
+    },
+    {
+      "departamento": "MOQUEGUA",
+      "provincia": "MARISCAL NIETO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_moquegua_mariscal_nieto.gpkg"
+    },
+    {
+      "departamento": "MOQUEGUA",
+      "provincia": "MARISCAL NIETO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_moquegua_mariscal_nieto_simplified.gpkg"
+    },
+    {
+      "departamento": "PASCO",
+      "provincia": "DANIEL ALCIDES CARRION",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_pasco_daniel_alcides_carrion.gpkg"
+    },
+    {
+      "departamento": "PASCO",
+      "provincia": "DANIEL ALCIDES CARRION",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_pasco_daniel_alcides_carrion_simplified.gpkg"
+    },
+    {
+      "departamento": "PASCO",
+      "provincia": "OXAPAMPA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_pasco_oxapampa.gpkg"
+    },
+    {
+      "departamento": "PASCO",
+      "provincia": "OXAPAMPA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_pasco_oxapampa_simplified.gpkg"
+    },
+    {
+      "departamento": "PASCO",
+      "provincia": "PASCO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_pasco_pasco.gpkg"
+    },
+    {
+      "departamento": "PASCO",
+      "provincia": "PASCO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_pasco_pasco_simplified.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "AYABACA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_ayabaca.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "AYABACA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_ayabaca_simplified.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "HUANCABAMBA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_huancabamba.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "HUANCABAMBA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_huancabamba_simplified.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "MORROPON",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_morropon.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "MORROPON",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_morropon_simplified.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "PAITA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_paita.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "PAITA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_paita_simplified.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "PIURA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_piura.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "PIURA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_piura_simplified.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "SECHURA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_sechura.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "SECHURA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_sechura_simplified.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "SULLANA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_sullana.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "SULLANA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_sullana_simplified.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "TALARA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_talara.gpkg"
+    },
+    {
+      "departamento": "PIURA",
+      "provincia": "TALARA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_piura_talara_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "AZANGARO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_azangaro.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "AZANGARO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_azangaro_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "CARABAYA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_carabaya.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "CARABAYA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_carabaya_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "CHUCUITO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_chucuito.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "CHUCUITO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_chucuito_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "EL COLLAO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_el_collao.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "EL COLLAO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_el_collao_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "HUANCANE",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_huancane.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "HUANCANE",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_huancane_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "LAMPA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_lampa.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "LAMPA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_lampa_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "MELGAR",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_melgar.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "MELGAR",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_melgar_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "MOHO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_moho.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "MOHO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_moho_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "PUNO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_puno.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "PUNO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_puno_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "SAN ANTONIO DE PUTINA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_san_antonio_de_putina.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "SAN ANTONIO DE PUTINA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_san_antonio_de_putina_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "SAN ROMAN",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_san_roman.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "SAN ROMAN",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_san_roman_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "SANDIA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_sandia.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "SANDIA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_sandia_simplified.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "YUNGUYO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_yunguyo.gpkg"
+    },
+    {
+      "departamento": "PUNO",
+      "provincia": "YUNGUYO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_puno_yunguyo_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "BELLAVISTA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_bellavista.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "BELLAVISTA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_bellavista_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "EL DORADO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_el_dorado.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "EL DORADO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_el_dorado_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "HUALLAGA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_huallaga.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "HUALLAGA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_huallaga_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "LAMAS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_lamas.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "LAMAS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_lamas_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "MARISCAL CACERES",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_mariscal_caceres.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "MARISCAL CACERES",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_mariscal_caceres_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "MOYOBAMBA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_moyobamba.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "MOYOBAMBA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_moyobamba_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "PICOTA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_picota.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "PICOTA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_picota_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "RIOJA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_rioja.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "RIOJA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_rioja_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "SAN MARTIN",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_san_martin.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "SAN MARTIN",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_san_martin_simplified.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "TOCACHE",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_tocache.gpkg"
+    },
+    {
+      "departamento": "SAN MARTIN",
+      "provincia": "TOCACHE",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_san_martin_tocache_simplified.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": "CANDARAVE",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tacna_candarave.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": "CANDARAVE",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tacna_candarave_simplified.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": "JORGE BASADRE",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tacna_jorge_basadre.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": "JORGE BASADRE",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tacna_jorge_basadre_simplified.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": "TACNA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tacna_tacna.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": "TACNA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tacna_tacna_simplified.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": "TARATA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tacna_tarata.gpkg"
+    },
+    {
+      "departamento": "TACNA",
+      "provincia": "TARATA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tacna_tarata_simplified.gpkg"
+    },
+    {
+      "departamento": "TUMBES",
+      "provincia": "CONTRALMIRANTE VILLAR",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tumbes_contralmirante_villar.gpkg"
+    },
+    {
+      "departamento": "TUMBES",
+      "provincia": "CONTRALMIRANTE VILLAR",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tumbes_contralmirante_villar_simplified.gpkg"
+    },
+    {
+      "departamento": "TUMBES",
+      "provincia": "TUMBES",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tumbes_tumbes.gpkg"
+    },
+    {
+      "departamento": "TUMBES",
+      "provincia": "TUMBES",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tumbes_tumbes_simplified.gpkg"
+    },
+    {
+      "departamento": "TUMBES",
+      "provincia": "ZARUMILLA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tumbes_zarumilla.gpkg"
+    },
+    {
+      "departamento": "TUMBES",
+      "provincia": "ZARUMILLA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_tumbes_zarumilla_simplified.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": "ATALAYA",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ucayali_atalaya.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": "ATALAYA",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ucayali_atalaya_simplified.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": "CORONEL PORTILLO",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ucayali_coronel_portillo.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": "CORONEL PORTILLO",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ucayali_coronel_portillo_simplified.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": "PADRE ABAD",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ucayali_padre_abad.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": "PADRE ABAD",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ucayali_padre_abad_simplified.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": "PURUS",
+      "nivel": "provincia",
+      "tipo": "complete",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ucayali_purus.gpkg"
+    },
+    {
+      "departamento": "UCAYALI",
+      "provincia": "PURUS",
+      "nivel": "provincia",
+      "tipo": "simplified",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/geo/prov_ucayali_purus_simplified.gpkg"
+    }
+  ],
+  "anp": [
+    {
+      "nombre": "ABRA MALAGA THASTAYOC ROYAL CINCLODES",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_abra_malaga_thastayoc_royal_cinclodes.gpkg"
+    },
+    {
+      "nombre": "ABRA PATRICIA ALTO NIEVA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_abra_patricia_alto_nieva.gpkg"
+    },
+    {
+      "nombre": "AMAZON SHELTER",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_amazon_shelter.gpkg"
+    },
+    {
+      "nombre": "ARROYO NEGRO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_arroyo_negro.gpkg"
+    },
+    {
+      "nombre": "AURORA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_aurora.gpkg"
+    },
+    {
+      "nombre": "BAHUAJA I",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bahuaja_1.gpkg"
+    },
+    {
+      "nombre": "BIOPARQUE AMAZONICO BOSQUE DE HUAYO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bioparque_amazonico_bosque_de_huayo.gpkg"
+    },
+    {
+      "nombre": "BOSQUE BENJAMIN II",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_benjamin_ii.gpkg"
+    },
+    {
+      "nombre": "BOSQUE BENJAMIN III",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_benjamin_iii.gpkg"
+    },
+    {
+      "nombre": "BOSQUE BERLIN",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_berlin.gpkg"
+    },
+    {
+      "nombre": "BOSQUE CACHIL",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_cachil.gpkg"
+    },
+    {
+      "nombre": "BOSQUE DE CHURUMAZU",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_de_churumazu.gpkg"
+    },
+    {
+      "nombre": "BOSQUE DE NEBLINA AYPATE OLLEROS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_de_neblina_aypate_olleros.gpkg"
+    },
+    {
+      "nombre": "BOSQUE DE NOGAL Y BOSQUE DE PUENTECILLA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_de_nogal_y_bosque_de_puentecilla.gpkg"
+    },
+    {
+      "nombre": "BOSQUE DE PALMERAS DE LA COMUNIDAD CAMPESINA TAULIA MOLINOPAMPA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_de_palmeras_de_la_comunidad_campesina_taulia_molinopampa.gpkg"
+    },
+    {
+      "nombre": "BOSQUE NATURAL EL CANONCILLO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_natural_el_canoncillo.gpkg"
+    },
+    {
+      "nombre": "BOSQUE SECO AMOTAPE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_seco_amotape.gpkg"
+    },
+    {
+      "nombre": "BOSQUE SECO DE CHILILIQUE ALTO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_seco_de_chililique_alto.gpkg"
+    },
+    {
+      "nombre": "BOSQUE SECO DE COLINA JUAN VELASCO ALVARADO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_seco_de_colina_juan_velasco_alvarado.gpkg"
+    },
+    {
+      "nombre": "BOSQUE SECO DE LA COMUNIDAD CAMPESINA CESAR VALLEJO DE PALO BLANCO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_seco_de_la_comunidad_campesina_cesar_vallejo_de_palo_blanco.gpkg"
+    },
+    {
+      "nombre": "BOSQUE SECO SAN JUAN DE LOS GUAYAQUILES",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_seco_san_juan_de_los_guayaquiles.gpkg"
+    },
+    {
+      "nombre": "BOSQUE URUM",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosque_urum.gpkg"
+    },
+    {
+      "nombre": "BOSQUES DE CUYAS CUCHAYO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosques_de_cuyas_cuchayo.gpkg"
+    },
+    {
+      "nombre": "BOSQUES DE NEBLINA Y PARAMOS DE SAMANGA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosques_de_neblina_y_paramos_de_samanga.gpkg"
+    },
+    {
+      "nombre": "BOSQUES MONTANOS Y PARAMOS CHICUATE CHINGUELAS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosques_montanos_y_paramos_chicuate_chinguelas.gpkg"
+    },
+    {
+      "nombre": "BOSQUES MONTANOS Y PARAMOS DE HUARICANCHA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_bosques_montanos_y_paramos_de_huaricancha.gpkg"
+    },
+    {
+      "nombre": "BOTAFOGO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_botafogo.gpkg"
+    },
+    {
+      "nombre": "BUEN RETIRO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_buen_retiro.gpkg"
+    },
+    {
+      "nombre": "CAMINO VERDE BALTIMORE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_camino_verde_baltimore.gpkg"
+    },
+    {
+      "nombre": "CAMPO VERDE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_campo_verde.gpkg"
+    },
+    {
+      "nombre": "CAVERNAS DE LEO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_cavernas_de_leo.gpkg"
+    },
+    {
+      "nombre": "CHAKRA EDUCATIVA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_chakra_educativa.gpkg"
+    },
+    {
+      "nombre": "CHAPARRI",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_chaparri.gpkg"
+    },
+    {
+      "nombre": "CHECCA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_checca.gpkg"
+    },
+    {
+      "nombre": "COMUNAL CUJILLO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_comunal_cujillo.gpkg"
+    },
+    {
+      "nombre": "COMUNAL SAN PABLO CATARATA GOCTA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_comunal_san_pablo_catarata_gocta.gpkg"
+    },
+    {
+      "nombre": "COMUNIDAD NATIVA ONCE DE AGOSTO RIO UCAYALI",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_comunidad_nativa_once_de_agosto_rio_ucayali.gpkg"
+    },
+    {
+      "nombre": "COMUNIDAD NATIVA SAN JORGE DEL RIO MARANON",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_comunidad_nativa_san_jorge_del_rio_maranon.gpkg"
+    },
+    {
+      "nombre": "COMUNIDAD NATIVA TIBI PLAYA I ZONA RIO UCAYALI",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_comunidad_nativa_tibi_playa_i_zona_rio_ucayali.gpkg"
+    },
+    {
+      "nombre": "COPALLIN",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_copallin.gpkg"
+    },
+    {
+      "nombre": "DARSHAN ASHRAM",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_darshan_ashram.gpkg"
+    },
+    {
+      "nombre": "EBIO KIABAMENE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_ebio_kiabamene.gpkg"
+    },
+    {
+      "nombre": "EL BOSQUE ENCANTADO DE SHOLLET",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_el_bosque_encantado_de_shollet.gpkg"
+    },
+    {
+      "nombre": "EL CORTIJO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_el_cortijo.gpkg"
+    },
+    {
+      "nombre": "EL CORTIJO CENTRO PIEDRAS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_el_cortijo_centro_piedras.gpkg"
+    },
+    {
+      "nombre": "ESPIRITU DEL MONTE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_espiritu_del_monte.gpkg"
+    },
+    {
+      "nombre": "FUNDO CADENA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_fundo_cadena.gpkg"
+    },
+    {
+      "nombre": "FUNDO LAS NEBLINAS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_fundo_las_neblinas.gpkg"
+    },
+    {
+      "nombre": "FUNDO MIGUEL I",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_fundo_miguel_i.gpkg"
+    },
+    {
+      "nombre": "FUNDO ROSITA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_fundo_rosita.gpkg"
+    },
+    {
+      "nombre": "FUNDO SAN ISIDRO EL LABRADOR",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_fundo_san_isidro_el_labrador.gpkg"
+    },
+    {
+      "nombre": "GOTAS DE AGUA II",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_gotas_de_agua_ii.gpkg"
+    },
+    {
+      "nombre": "HAKIM & CUMORAH",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_hakim_cumorah.gpkg"
+    },
+    {
+      "nombre": "HATUN QUEUNA QUISHUARANI CCOLLANA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_hatun_queuna_quishuarani_ccollana.gpkg"
+    },
+    {
+      "nombre": "HIERBA BUENA ALLPAYACU",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_hierba_buena_allpayacu.gpkg"
+    },
+    {
+      "nombre": "HUAYLLA BELEN COLCAMAR",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_huaylla_belen_colcamar.gpkg"
+    },
+    {
+      "nombre": "HUAYLLAPA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_huayllapa.gpkg"
+    },
+    {
+      "nombre": "HUIQUILLA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_huiquilla.gpkg"
+    },
+    {
+      "nombre": "ILISH PICHACOTO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_ilish_pichacoto.gpkg"
+    },
+    {
+      "nombre": "JAPU BOSQUE UKUMARI LLAQTA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_japu_bosque_ukumari_llaqta.gpkg"
+    },
+    {
+      "nombre": "JIRISHANCA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_jirishanca.gpkg"
+    },
+    {
+      "nombre": "JUNINGUE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_juningue.gpkg"
+    },
+    {
+      "nombre": "KAKIRI UKA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_kakiri_uka.gpkg"
+    },
+    {
+      "nombre": "KNOYA SUPRU",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_knoya_supru.gpkg"
+    },
+    {
+      "nombre": "KUNTUR WACHANA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_kuntur_wachana.gpkg"
+    },
+    {
+      "nombre": "LA HUERTA DEL CHAPARRI",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_la_huerta_del_chaparri.gpkg"
+    },
+    {
+      "nombre": "LA NIEBLA FOREST",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_la_niebla_forest.gpkg"
+    },
+    {
+      "nombre": "LA PAMPA DEL BURRO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_la_pampa_del_burro.gpkg"
+    },
+    {
+      "nombre": "LAGUNAS Y PARAMOS DE ANDINOS DE SAN JOSE DE TAPAL",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_lagunas_y_paramos_de_andinos_de_san_jose_de_tapal.gpkg"
+    },
+    {
+      "nombre": "LAKSHMI AMAZONICA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_lakshmi_amazonica.gpkg"
+    },
+    {
+      "nombre": "LARGA VISTA I",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_larga_vista_i.gpkg"
+    },
+    {
+      "nombre": "LAS NARANJAS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_las_naranjas.gpkg"
+    },
+    {
+      "nombre": "LAS PANGUANAS I",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_las_panguanas_1.gpkg"
+    },
+    {
+      "nombre": "LAS PANGUANAS II",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_las_panguanas_2.gpkg"
+    },
+    {
+      "nombre": "LAS PANGUANAS III",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_las_panguanas_3.gpkg"
+    },
+    {
+      "nombre": "LAS PANGUANAS IV",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_las_panguanas_4.gpkg"
+    },
+    {
+      "nombre": "LLAMAPAMPA LA JALCA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_llamapampa_la_jalca.gpkg"
+    },
+    {
+      "nombre": "LOMAS DE ATIQUIPA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_lomas_de_atiquipa.gpkg"
+    },
+    {
+      "nombre": "LOMAS DE QUEBRADA RIO SECO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_lomas_de_quebrada_rio_seco.gpkg"
+    },
+    {
+      "nombre": "LOMAS DEL CERRO CAMPANA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_lomas_del_cerro_campana.gpkg"
+    },
+    {
+      "nombre": "LOS AMIGOS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_los_amigos.gpkg"
+    },
+    {
+      "nombre": "LOS BOSQUES DE DOTOR HUALTACAL PUEBLO LIBRE LA JARDINA Y CHORRO BLANCO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_los_bosques_de_dotor_hualtacal_pueblo_libre_la_jardina_y_chorro_blanco.gpkg"
+    },
+    {
+      "nombre": "LOS BOSQUES DE OVERAL Y PALO BLANCO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_los_bosques_de_overal_y_palo_blanco.gpkg"
+    },
+    {
+      "nombre": "LOS CHILCHOS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_los_chilchos.gpkg"
+    },
+    {
+      "nombre": "MACHUSANIACA I",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_machusaniaca_i.gpkg"
+    },
+    {
+      "nombre": "MACHUSANIACA II",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_machusaniaca_ii.gpkg"
+    },
+    {
+      "nombre": "MANGAMANGUILLA DE LA ASOCIACION AGRARIA MANGA MANGA DE SALITRAL",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_mangamanguilla_de_la_asociacion_agraria_manga_manga_de_salitral.gpkg"
+    },
+    {
+      "nombre": "MASHEKE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_masheke.gpkg"
+    },
+    {
+      "nombre": "MATORIATO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_matoriato.gpkg"
+    },
+    {
+      "nombre": "MISQUIYACO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_misquiyaco.gpkg"
+    },
+    {
+      "nombre": "NATURALEZA VIVA RYO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_naturaleza_viva_ryo.gpkg"
+    },
+    {
+      "nombre": "NI MERAYA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_ni_meraya.gpkg"
+    },
+    {
+      "nombre": "NIHII EUPA FRANCISCO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_nihii_eupa_francisco.gpkg"
+    },
+    {
+      "nombre": "PABLITO II",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_pablito_ii.gpkg"
+    },
+    {
+      "nombre": "PACLLON",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_pacllon.gpkg"
+    },
+    {
+      "nombre": "PALMONTE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_palmonte.gpkg"
+    },
+    {
+      "nombre": "PAMPACORRAL",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_pampacorral.gpkg"
+    },
+    {
+      "nombre": "PANGUANA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_panguana.gpkg"
+    },
+    {
+      "nombre": "PARAISO NATURAL IWIRATI",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_paraiso_natural_iwirati.gpkg"
+    },
+    {
+      "nombre": "PARAJE CAPIRO LLAYLLA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_paraje_capiro_llaylla.gpkg"
+    },
+    {
+      "nombre": "PARAMOS Y BOSQUES MONTANOS DE LA COMUNIDAD CAMPESINA SAN JUAN DE SALLIQUE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_paramos_y_bosques_montanos_de_la_comunidad_campesina_san_juan_de_sallique.gpkg"
+    },
+    {
+      "nombre": "PARAMOS Y BOSQUES MONTANOS PARAISO DE LA COMUNIDAD CAMPESINA SAN FELIPE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_paramos_y_bosques_montanos_paraiso_de_la_comunidad_campesina_san_felipe.gpkg"
+    },
+    {
+      "nombre": "PARAMOS Y BOSQUES MONTANOS SAN MIGUEL DE TABACONAS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_paramos_y_bosques_montanos_san_miguel_de_tabaconas.gpkg"
+    },
+    {
+      "nombre": "PILLCO GRANDE BOSQUE DE PUMATAKI",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_pillco_grande_bosque_de_pumataki.gpkg"
+    },
+    {
+      "nombre": "POTSOM POSHOLL",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_potsom_posholl.gpkg"
+    },
+    {
+      "nombre": "PREDIO COLLPAPAMPA HUADQUINA MESADA CHICO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_predio_collpapampa_huadquina_mesada_chico.gpkg"
+    },
+    {
+      "nombre": "PUCUNUCHO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_pucunucho.gpkg"
+    },
+    {
+      "nombre": "PUMAWASI",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_pumawasi.gpkg"
+    },
+    {
+      "nombre": "REFUGIO KERENDA HOMET",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_refugio_kerenda_homet.gpkg"
+    },
+    {
+      "nombre": "REFUGIO LUPUNA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_refugio_lupuna.gpkg"
+    },
+    {
+      "nombre": "RONSOCO COCHA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_ronsoco_cocha.gpkg"
+    },
+    {
+      "nombre": "SABALILLO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_sabalillo.gpkg"
+    },
+    {
+      "nombre": "SAN ANTONIO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_san_antonio.gpkg"
+    },
+    {
+      "nombre": "SAN JUAN BAUTISTA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_san_juan_bautista.gpkg"
+    },
+    {
+      "nombre": "SAN LORENZO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_san_lorenzo.gpkg"
+    },
+    {
+      "nombre": "SAN LUIS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_san_luis.gpkg"
+    },
+    {
+      "nombre": "SAN MARCOS",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_san_marcos.gpkg"
+    },
+    {
+      "nombre": "SAN PEDRO DE CHUQUIBAMBA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_san_pedro_de_chuquibamba.gpkg"
+    },
+    {
+      "nombre": "SANTA CATALINA DE MOZA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_santa_catalina_de_moza.gpkg"
+    },
+    {
+      "nombre": "SANTUARIO DE LA VERONICA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_santuario_de_la_veronica.gpkg"
+    },
+    {
+      "nombre": "SELVA VIRGEN",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_selva_virgen.gpkg"
+    },
+    {
+      "nombre": "SIETE CATARATAS QANCHIS PACCHA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_siete_cataratas_qanchis_paccha.gpkg"
+    },
+    {
+      "nombre": "SUMAC INTI",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_sumac_inti.gpkg"
+    },
+    {
+      "nombre": "SUMAC PACHA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_sumac_pacha.gpkg"
+    },
+    {
+      "nombre": "SUMAC QUILLA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_sumac_quilla.gpkg"
+    },
+    {
+      "nombre": "SUTTOC Y PACCHAC",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_suttoc_y_pacchac.gpkg"
+    },
+    {
+      "nombre": "TAMBO ILUSION",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_tambo_ilusion.gpkg"
+    },
+    {
+      "nombre": "TAMBOPATA ECO LODGE",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_tambopata_eco_lodge.gpkg"
+    },
+    {
+      "nombre": "TAMBOPATA ECO LODGE I",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_tambopata_eco_lodge_i.gpkg"
+    },
+    {
+      "nombre": "TILACANCHA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_tilacancha.gpkg"
+    },
+    {
+      "nombre": "TOTORABAMBA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_totorabamba.gpkg"
+    },
+    {
+      "nombre": "UNCHOG",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_unchog.gpkg"
+    },
+    {
+      "nombre": "UTCO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_utco.gpkg"
+    },
+    {
+      "nombre": "WACAN NUMI",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_wacan_numi.gpkg"
+    },
+    {
+      "nombre": "WAYQECHA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_wayqecha.gpkg"
+    },
+    {
+      "nombre": "YACILA DE ZAMBA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_yacila_de_zamba.gpkg"
+    },
+    {
+      "nombre": "YASGOLCA SANTA LUCIA MONTEVIDEO",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_yasgolca_santa_lucia_montevideo.gpkg"
+    },
+    {
+      "nombre": "ZARAGOZA",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_zaragoza.gpkg"
+    },
+    {
+      "nombre": "ZOO PERU",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_zoo_peru.gpkg"
+    },
+    {
+      "nombre": "ZOO PERU I",
+      "categoria": "Área de Conservación Privada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acp_zoo_peru_i.gpkg"
+    },
+    {
+      "nombre": "ALBUFERA DE MEDIO MUNDO",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_albufera_de_medio_mundo.gpkg"
+    },
+    {
+      "nombre": "ALTO NANAY PINTUYACU CHAMBIRA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_alto_nanay_pintuyacu_chambira.gpkg"
+    },
+    {
+      "nombre": "AMPIYACU APAYACU",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_ampiyacu_apayacu.gpkg"
+    },
+    {
+      "nombre": "ANGOSTURA FAICAL",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_angostura_faical.gpkg"
+    },
+    {
+      "nombre": "AUSANGATE",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_ausangate.gpkg"
+    },
+    {
+      "nombre": "BOSQUE DE PUYA RAYMONDI TITANKAYOCC",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosque_de_puya_raymondi_titankayocc.gpkg"
+    },
+    {
+      "nombre": "BOSQUE HUACRUPE LA CALERA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosque_huacrupe_la_calera.gpkg"
+    },
+    {
+      "nombre": "BOSQUE MONTANO DE CARPISH",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosque_montano_de_carpish.gpkg"
+    },
+    {
+      "nombre": "BOSQUE MOYAN PALACIO",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosque_moyan_palacio.gpkg"
+    },
+    {
+      "nombre": "BOSQUE NUBLADO AMARU HUACHOCOLPA CHIHUANA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosque_nublado_amaru_huachocolpa_chihuana.gpkg"
+    },
+    {
+      "nombre": "BOSQUES DE SHUNTE Y MISHOLLO",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosques_de_shunte_y_mishollo.gpkg"
+    },
+    {
+      "nombre": "BOSQUES EL CHAUPE CUNIA Y CHINCHIQUILLA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosques_el_chaupe_cunia_y_chinchiquilla.gpkg"
+    },
+    {
+      "nombre": "BOSQUES SECOS DEL MARANON",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosques_secos_del_maranon.gpkg"
+    },
+    {
+      "nombre": "BOSQUES SECOS SALITRAL HUARMACA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosques_secos_salitral_huarmaca.gpkg"
+    },
+    {
+      "nombre": "BOSQUES TROPICALES ESTACIONALMENTE SECOS DEL MARANON",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_bosques_tropicales_estacionalmente_secos_del_maranon.gpkg"
+    },
+    {
+      "nombre": "CHOQUEQUIRAO",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_choquequirao.gpkg"
+    },
+    {
+      "nombre": "CHUYAPI URUSAYHUA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_chuyapi_urusayhua.gpkg"
+    },
+    {
+      "nombre": "CODO DEL POZUZO",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_codo_del_pozuzo.gpkg"
+    },
+    {
+      "nombre": "COMUNAL ALTO TAMAYA ABUJAO",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_comunal_alto_tamaya_abujao.gpkg"
+    },
+    {
+      "nombre": "COMUNAL TAMSHIYACU TAHUAYO",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_comunal_tamshiyacu_tahuayo.gpkg"
+    },
+    {
+      "nombre": "CORDILLERA ESCALERA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_cordillera_escalera.gpkg"
+    },
+    {
+      "nombre": "HUAYTAPALLANA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_huaytapallana.gpkg"
+    },
+    {
+      "nombre": "HUMEDALES DE VENTANILLA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_humedales_de_ventanilla.gpkg"
+    },
+    {
+      "nombre": "IMIRIA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_imiria.gpkg"
+    },
+    {
+      "nombre": "LAGUNA DE HUACACHINA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_laguna_de_huacachina.gpkg"
+    },
+    {
+      "nombre": "MAIJUNA KICHWA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_maijuna_kichwa.gpkg"
+    },
+    {
+      "nombre": "PARAMOS Y BOSQUES MONTANOS DE JAEN Y TABACONAS",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_paramos_y_bosques_montanos_de_jaen_y_tabaconas.gpkg"
+    },
+    {
+      "nombre": "QEROS KOSNIPATA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_qeros_kosnipata.gpkg"
+    },
+    {
+      "nombre": "SISTEMA DE LOMAS DE LIMA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_sistema_de_lomas_de_lima.gpkg"
+    },
+    {
+      "nombre": "TRES CANONES",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_tres_canones.gpkg"
+    },
+    {
+      "nombre": "VILACOTA MAURE",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_vilacota_maure.gpkg"
+    },
+    {
+      "nombre": "VISTA ALEGRE OMIA",
+      "categoria": "Área de Conservación Regional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/acr_vista_alegre_omia.gpkg"
+    },
+    {
+      "nombre": "ALEDANO A LA BOCATOMA DEL CANAL NUEVO IMPERIAL",
+      "categoria": "Bosque de Protección",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/bp_aledaño_a_la_bocatoma_del_canal_nuevo_imperial.gpkg"
+    },
+    {
+      "nombre": "ALTO MAYO",
+      "categoria": "Bosque de Protección",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/bp_alto_mayo.gpkg"
+    },
+    {
+      "nombre": "PAGAIBAMBA",
+      "categoria": "Bosque de Protección",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/bp_pagaibamba.gpkg"
+    },
+    {
+      "nombre": "PUI PUI",
+      "categoria": "Bosque de Protección",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/bp_pui_pui.gpkg"
+    },
+    {
+      "nombre": "PUQUIO SANTA ROSA",
+      "categoria": "Bosque de Protección",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/bp_puquio_santa_rosa.gpkg"
+    },
+    {
+      "nombre": "SAN MATIAS SAN CARLOS",
+      "categoria": "Bosque de Protección",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/bp_san_matias_san_carlos.gpkg"
+    },
+    {
+      "nombre": "EL ANGOLO",
+      "categoria": "Coto de Caza",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/cc_el_angolo.gpkg"
+    },
+    {
+      "nombre": "SUNCHUBAMBA",
+      "categoria": "Coto de Caza",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/cc_sunchubamba.gpkg"
+    },
+    {
+      "nombre": "ALTO PURUS",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_alto_purús.gpkg"
+    },
+    {
+      "nombre": "BAHUAJA SONENE",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_bahuaja_sonene.gpkg"
+    },
+    {
+      "nombre": "CERROS DE AMOTAPE",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_cerros_de_amotape.gpkg"
+    },
+    {
+      "nombre": "CORDILLERA AZUL",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_cordillera_azul.gpkg"
+    },
+    {
+      "nombre": "CUTERVO",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_cutervo.gpkg"
+    },
+    {
+      "nombre": "GUEPPI SEKIME",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_güeppí_sekime.gpkg"
+    },
+    {
+      "nombre": "HUASCARAN",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_huascarán.gpkg"
+    },
+    {
+      "nombre": "ICHIGKAT MUJA CORDILLERA DEL CONDOR",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_ichigkat_muja_cordillera_del_cóndor.gpkg"
+    },
+    {
+      "nombre": "MANU",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_manu.gpkg"
+    },
+    {
+      "nombre": "OTISHI",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_otishi.gpkg"
+    },
+    {
+      "nombre": "RIO ABISEO",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_río_abiseo.gpkg"
+    },
+    {
+      "nombre": "SIERRA DEL DIVISOR",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_sierra_del_divisor.gpkg"
+    },
+    {
+      "nombre": "TINGO MARIA",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_tingo_maría.gpkg"
+    },
+    {
+      "nombre": "YAGUAS",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_yaguas.gpkg"
+    },
+    {
+      "nombre": "YANACHAGA CHEMILLEN",
+      "categoria": "Parque Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/pn_yanachaga_chemillén.gpkg"
+    },
+    {
+      "nombre": "AIRO PAI",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_airo_pai.gpkg"
+    },
+    {
+      "nombre": "AMARAKAERI",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_amarakaeri.gpkg"
+    },
+    {
+      "nombre": "ASHANINKA",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_ashaninka.gpkg"
+    },
+    {
+      "nombre": "CHAYU NAIN",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_chayu_naín.gpkg"
+    },
+    {
+      "nombre": "EL SIRA",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_el_sira.gpkg"
+    },
+    {
+      "nombre": "HUIMEKI",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_huimeki.gpkg"
+    },
+    {
+      "nombre": "MACHIGUENGA",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_machiguenga.gpkg"
+    },
+    {
+      "nombre": "PURUS",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_purús.gpkg"
+    },
+    {
+      "nombre": "TUNTANAIN",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_tuntanain.gpkg"
+    },
+    {
+      "nombre": "YANESHA",
+      "categoria": "Reserva Comunal",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rc_yanesha.gpkg"
+    },
+    {
+      "nombre": "ALLPAHUAYO MISHANA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_allpahuayo_mishana.gpkg"
+    },
+    {
+      "nombre": "CALIPUY",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_calipuy.gpkg"
+    },
+    {
+      "nombre": "DORSAL DE NASCA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_dorsal_de_nasca.gpkg"
+    },
+    {
+      "nombre": "ILLESCAS",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_illescas.gpkg"
+    },
+    {
+      "nombre": "ISLA ASIA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_isla_asia.gpkg"
+    },
+    {
+      "nombre": "ISLA BALLESTAS NORTE CENTRO Y SUR",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_isla_ballestas_norte_centro_y_sur.gpkg"
+    },
+    {
+      "nombre": "ISLA CHAO",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_isla_chao.gpkg"
+    },
+    {
+      "nombre": "ISLA CHINCHA NORTE CENTRO Y SUR",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_isla_chincha_norte_centro_y_sur.gpkg"
+    },
+    {
+      "nombre": "ISLA LOBOS DE TIERRA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_isla_lobos_de_tierra.gpkg"
+    },
+    {
+      "nombre": "ISLA SANTA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_isla_santa.gpkg"
+    },
+    {
+      "nombre": "ISLAS CAVINZAS E ISLOTES PALOMINOS",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_islas_cavinzas_e_islotes_palominos.gpkg"
+    },
+    {
+      "nombre": "ISLAS GUANAPE NORTE Y GUANAPE SUR",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_islas_guañape_norte_y_guañape_sur.gpkg"
+    },
+    {
+      "nombre": "ISLAS LOBOS DE AFUERA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_islas_lobos_de_afuera.gpkg"
+    },
+    {
+      "nombre": "ISLAS MACABI",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_islas_macabí.gpkg"
+    },
+    {
+      "nombre": "ISLAS PACHACAMAC",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_islas_pachacamac.gpkg"
+    },
+    {
+      "nombre": "ISLOTE CORCOVADO",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_islote_corcovado.gpkg"
+    },
+    {
+      "nombre": "ISLOTE DON MARTIN",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_islote_don_martín.gpkg"
+    },
+    {
+      "nombre": "ISLOTE GRUPO DE PESCADORES",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_islote_grupo_de_pescadores.gpkg"
+    },
+    {
+      "nombre": "JUNIN",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_junín.gpkg"
+    },
+    {
+      "nombre": "LACHAY",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_lachay.gpkg"
+    },
+    {
+      "nombre": "MATSES",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_matsés.gpkg"
+    },
+    {
+      "nombre": "PACAYA SAMIRIA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_pacaya_samiria.gpkg"
+    },
+    {
+      "nombre": "PAMPA GALERAS BARBARA DACHILLE",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_pampa_galeras_barbara_dachille.gpkg"
+    },
+    {
+      "nombre": "PARACAS",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_paracas.gpkg"
+    },
+    {
+      "nombre": "PUCACURO",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_pucacuro.gpkg"
+    },
+    {
+      "nombre": "PUNTA ATICO",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_atico.gpkg"
+    },
+    {
+      "nombre": "PUNTA COLES",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_coles.gpkg"
+    },
+    {
+      "nombre": "PUNTA COLORADO",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_colorado.gpkg"
+    },
+    {
+      "nombre": "PUNTA CULEBRAS",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_culebras.gpkg"
+    },
+    {
+      "nombre": "PUNTA HORNILLOS",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_hornillos.gpkg"
+    },
+    {
+      "nombre": "PUNTA LA CHIRA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_la_chira.gpkg"
+    },
+    {
+      "nombre": "PUNTA LA LITERA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_la_litera.gpkg"
+    },
+    {
+      "nombre": "PUNTA LOMAS",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_lomas.gpkg"
+    },
+    {
+      "nombre": "PUNTA LOMITAS",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_lomitas.gpkg"
+    },
+    {
+      "nombre": "PUNTA SALINAS ISLA HUAMPANU E ISLA MAZORCA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_salinas_isla_huampanú_e_isla_mazorca.gpkg"
+    },
+    {
+      "nombre": "PUNTA SAN JUAN",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_punta_san_juan.gpkg"
+    },
+    {
+      "nombre": "SALINAS Y AGUADA BLANCA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_salinas_y_aguada_blanca.gpkg"
+    },
+    {
+      "nombre": "SAN FERNANDO",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_san_fernando.gpkg"
+    },
+    {
+      "nombre": "TAMBOPATA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_tambopata.gpkg"
+    },
+    {
+      "nombre": "TITICACA",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_titicaca.gpkg"
+    },
+    {
+      "nombre": "TUMBES",
+      "categoria": "Reserva Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rn_tumbes.gpkg"
+    },
+    {
+      "nombre": "NOR YAUYOS COCHAS",
+      "categoria": "Reserva Paisajistica",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rp_nor_yauyos_cochas.gpkg"
+    },
+    {
+      "nombre": "SUBCUENCA DEL COTAHUASI",
+      "categoria": "Reserva Paisajistica",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rp_subcuenca_del_cotahuasi.gpkg"
+    },
+    {
+      "nombre": "BOSQUES NUBLADOS DE UDIMA",
+      "categoria": "Refugio de Vida Silvestre",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rvs_bosques_nublados_de_udima.gpkg"
+    },
+    {
+      "nombre": "LAQUIPAMPA",
+      "categoria": "Refugio de Vida Silvestre",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rvs_laquipampa.gpkg"
+    },
+    {
+      "nombre": "LOS PANTANOS DE VILLA",
+      "categoria": "Refugio de Vida Silvestre",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/rvs_los_pantanos_de_villa.gpkg"
+    },
+    {
+      "nombre": "BOSQUE DE POMAC",
+      "categoria": "Santuario Histórico",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sh_bosque_de_pomac.gpkg"
+    },
+    {
+      "nombre": "CHACAMARCA",
+      "categoria": "Santuario Histórico",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sh_chacamarca.gpkg"
+    },
+    {
+      "nombre": "MACHUPICCHU",
+      "categoria": "Santuario Histórico",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sh_machupicchu.gpkg"
+    },
+    {
+      "nombre": "PAMPA DE AYACUCHO",
+      "categoria": "Santuario Histórico",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sh_pampa_de_ayacucho.gpkg"
+    },
+    {
+      "nombre": "AMPAY",
+      "categoria": "Santuario Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sn_ampay.gpkg"
+    },
+    {
+      "nombre": "CALIPUY",
+      "categoria": "Santuario Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sn_calipuy.gpkg"
+    },
+    {
+      "nombre": "CORDILLERA DE COLAN",
+      "categoria": "Santuario Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sn_cordillera_de_colán.gpkg"
+    },
+    {
+      "nombre": "HUAYLLAY",
+      "categoria": "Santuario Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sn_huayllay.gpkg"
+    },
+    {
+      "nombre": "LAGUNAS DE MEJIA",
+      "categoria": "Santuario Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sn_lagunas_de_mejía.gpkg"
+    },
+    {
+      "nombre": "MANGLARES DE TUMBES",
+      "categoria": "Santuario Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sn_los_manglares_de_tumbes.gpkg"
+    },
+    {
+      "nombre": "MEGANTONI",
+      "categoria": "Santuario Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sn_megantoni.gpkg"
+    },
+    {
+      "nombre": "PAMPA HERMOSA",
+      "categoria": "Santuario Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sn_pampa_hermosa.gpkg"
+    },
+    {
+      "nombre": "TABACONAS NAMBALLE",
+      "categoria": "Santuario Nacional",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/sn_tabaconas_namballe.gpkg"
+    },
+    {
+      "nombre": "ANCON",
+      "categoria": "Zona Reservada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/zr_ancon.gpkg"
+    },
+    {
+      "nombre": "BOSQUE DE ZARATE",
+      "categoria": "Zona Reservada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/zr_bosque_de_zarate.gpkg"
+    },
+    {
+      "nombre": "CHANCAYBANOS",
+      "categoria": "Zona Reservada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/zr_chancaybanos.gpkg"
+    },
+    {
+      "nombre": "CORDILLERA HUAYHUASH",
+      "categoria": "Zona Reservada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/zr_cordillera_huayhuash.gpkg"
+    },
+    {
+      "nombre": "RESERVA PAISAJISTICA CERRO KHAPIA",
+      "categoria": "Zona Reservada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/zr_reserva_paisajistica_cerro_khapia.gpkg"
+    },
+    {
+      "nombre": "RIO NIEVA",
+      "categoria": "Zona Reservada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/zr_rio_nieva.gpkg"
+    },
+    {
+      "nombre": "SANTIAGO COMAINA",
+      "categoria": "Zona Reservada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/zr_santiago_comaina.gpkg"
+    },
+    {
+      "nombre": "SIERRA DEL DIVISOR",
+      "categoria": "Zona Reservada",
+      "url": "https://raw.githubusercontent.com/PaulESantos/perugeopkg/master/anp/zr_sierra_del_divisor.gpkg"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Si usa este paquete, cite también el paquete original en R."
+title: "geoperu-py: límites administrativos y áreas protegidas del Perú en Python"
+version: 0.1.0
+date-released: 2026-09-22
+license: MIT
+type: software
+abstract: >-
+  Puerto a Python del paquete R geoperu. Descarga y lee límites
+  administrativos oficiales del Perú (INEI) y áreas naturales protegidas
+  (SERNANP) usando solo la biblioteca estándar, para poder incrustarse en
+  plugins de QGIS y entornos sin GDAL.
+references:
+  - type: software
+    title: "geoperu: Download Spatial Datasets of Peru"
+    authors:
+      - family-names: "Santos Andrade"
+        given-names: "Paul E."
+        orcid: "https://orcid.org/0000-0002-6635-0375"
+    repository-code: "https://github.com/PaulESantos/geoperu"
+    license: MIT

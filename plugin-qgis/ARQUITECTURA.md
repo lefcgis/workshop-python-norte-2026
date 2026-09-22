@@ -35,7 +35,9 @@ plugin-qgis/peru_occ/
 │   ├── esquema.py                # los 24 campos, tipos QVariant, orden estricto
 │   ├── config.py                 # defaults desde contratos/parametros_defecto.json
 │   ├── normalizacion.py          # normalizar_texto(), catálogo de departamentos
-│   ├── limites.py                # ProveedorLimites (3 estrategias) + caché GPKG
+│   ├── limites.py                # envoltorio de geoperu-py (transporte QGIS + caché)
+│   ├── vendor/
+│   │   └── geoperu/              # copia de geoperu-py: sin dependencias, no editar aquí
 │   ├── geometria.py              # CCW, simplificación UTM, presupuesto WKT, teselado
 │   ├── clientes/
 │   │   ├── base.py               # reintentos, backoff, User-Agent, cancelación
@@ -120,7 +122,7 @@ finished(): cargar capa al proyecto, aplicar .qml, mostrar resumen
 
 | Hito | Contenido | Desbloquea |
 |---|---|---|
-| **H1** | `ProveedorLimites` funcionando (riesgo R1) + `normalizacion` + caché GPKG | todo lo demás |
+| **H1** | Incrustar `geoperu-py` + transporte de QGIS + caché (riesgo R1 ya resuelto) | todo lo demás |
 | **H2** | `geometria` (CCW, simplificación, teselado) con tests contra la lógica de R | H3 |
 | **H3** | Clientes GBIF + iNaturalist con reintentos y conteo previo | H4 |
 | **H4** | `consolidacion` + `validacion_espacial` + esquema de 24 campos | H5, H6 |
@@ -128,5 +130,23 @@ finished(): cargar capa al proyecto, aplicar .qml, mostrar resumen
 | **H6** | Algoritmo Processing + exportación + manifiesto | batch y trazabilidad |
 | **H7** | Suite de tests, empaquetado ZIP, documentación didáctica | publicación |
 
-H1 primero no es arbitrario: sin límites oficiales no hay nada que consultar, y
-es el único eslabón sin equivalente Python directo.
+H1 primero no es arbitrario: sin límites oficiales no hay nada que consultar.
+Ya no es el eslabón sin equivalente en Python —`geoperu-py` lo resolvió— pero
+sigue siendo la base de la que dependen los demás hitos.
+
+### Cómo se incrusta `geoperu-py`
+
+`nucleo/vendor/geoperu/` es una **copia** del paquete, no un `pip install`:
+así el plugin no le pide al usuario instalar nada, que es el requisito R2.
+Lo que `nucleo/limites.py` agrega encima:
+
+1. `geoperu.establecer_transporte()` con `QgsBlockingNetworkRequest`, para
+   respetar el proxy configurado en QGIS.
+2. `GEOPERU_CACHE` apuntando al directorio del plugin (`peruocc_data_dir()`).
+3. Conversión `QgsGeometry.fromWkb(QByteArray(rasgo.wkb))` — el paquete
+   entrega WKB crudo justamente para no pagar una conversión a texto.
+4. Traducción de sus excepciones (`GeografiaNoEncontrada`, `UnidadAmbigua`,
+   `ErrorDescarga`) a los mensajes accionables del catálogo del plugin.
+
+La copia se actualiza trayendo una versión publicada del paquete; **no se
+edita dentro del plugin**, o se pierde al siguiente refresco.

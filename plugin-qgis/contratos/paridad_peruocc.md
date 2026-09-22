@@ -11,12 +11,12 @@ Leyenda de estado: `pendiente` · `en curso` · `hecho` · `divergente (justific
 
 | # | `peruocc` | Equivalente QGIS | Responsable | Evidencia exigida | Estado |
 |---|---|---|---|---|---|
-| A1 | `obtener_poligono_distrito(distrito, departamento, provincia)` | `ProveedorLimites.distrito()` | ingeniero-geoespacial | Geometría idéntica (área ±0.01 %) para 5 distritos de prueba | pendiente |
-| A2 | `obtener_poligono_provincia(provincia, departamento)` — disuelve distritos con `st_union` | `ProveedorLimites.provincia()` con disolución | ingeniero-geoespacial | La provincia disuelta no tiene huecos internos entre distritos | pendiente |
+| A1 | `obtener_poligono_distrito(distrito, departamento, provincia)` | `geoperu.obtener_distrito()` | ingeniero-geoespacial | Geometría idéntica (área ±0.01 %) para 5 distritos de prueba | pendiente |
+| A2 | `obtener_poligono_provincia(provincia, departamento)` — disuelve distritos con `st_union` | `geoperu.obtener_provincia(disuelta=True)`: **no hace falta disolver**, el origen ya publica el polígono provincial | ingeniero-geoespacial | La provincia disuelta no tiene huecos internos entre distritos | pendiente |
 | A3 | `obtener_poligono_unidad(nombre, nivel, ...)` | Despachador único por `nivel` | ingeniero-geoespacial | Test de despacho distrito/provincia | pendiente |
 | A4 | `preparar_poligono_usuario(poligono, nombre)` — lee `sf`/`.shp`/`.geojson` | Capa QGIS activa, o *features seleccionados*, reproyectada a EPSG:4326 | ingeniero-geoespacial | Ámbito con CRS de origen distinto a 4326 produce el mismo resultado | pendiente |
-| A5 | `cargar_mapa_departamental()` + caché `.rds` + caché en memoria | Caché GeoPackage en disco + caché en memoria por sesión | ingeniero-geoespacial | Segunda consulta al mismo departamento sin tráfico de red | pendiente |
-| A6 | `normalizar_texto()` y `departamentos_oficiales()` (25 departamentos) | Normalizador equivalente + catálogo oficial | ingeniero-geoespacial | «MADRE DE DIOS», «Madre de Dios» y «madre de dios» resuelven igual | pendiente |
+| A5 | `cargar_mapa_departamental()` + caché `.rds` + caché en memoria | Caché de `geoperu-py` (escritura atómica + SHA-256), con `GEOPERU_CACHE` en el directorio del plugin | ingeniero-geoespacial | Segunda consulta al mismo departamento sin tráfico de red | pendiente |
+| A6 | `normalizar_texto()` y `departamentos_oficiales()` (25 departamentos) | `geoperu.normalizar()` y `geoperu.DEPARTAMENTOS` (ya verificados contra `peruocc`) | ingeniero-geoespacial | «MADRE DE DIOS», «Madre de Dios» y «madre de dios» resuelven igual | pendiente |
 
 ## B. Preparación geométrica para las APIs
 

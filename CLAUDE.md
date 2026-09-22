@@ -1,8 +1,9 @@
 # Convenciones del repositorio
 
 Aula virtual de geoprocesamiento en la Amazonía (`estudiantes/`, `docentes/`,
-`dados/`) más un sistema de agentes para construir un plugin de QGIS
-(`plugin-qgis/`, `.claude/`).
+`dados/`), un sistema de agentes para construir un plugin de QGIS
+(`plugin-qgis/`, `.claude/`) y el paquete `geoperu-py/`, del que ese plugin
+depende.
 
 ## Idioma
 
@@ -47,6 +48,21 @@ Los archivos de `contratos/` **no se modifican sin acuerdo del orquestador**.
    filtra contra el **polígono detallado original**. Nunca al revés.
 7. **Nunca truncar en silencio**: al superar el techo de una API se aborta con un
    mensaje que dice qué hacer.
+
+## Paquete `geoperu-py/`
+
+Puerto a Python del paquete R `geoperu`: límites administrativos del INEI y
+áreas naturales protegidas del SERNANP, **sin dependencias externas**. Es un
+proyecto autónomo (tiene su propio `pyproject.toml`, licencia y CI), listo
+para publicarse en su propio repositorio, y resuelve el riesgo R1 del plugin.
+
+- Lee GeoPackage con `sqlite3` y trae su propio lector de WKB: nada de GDAL,
+  `shapely` ni `geopandas`. Una prueba recorre el árbol con `ast` y falla si
+  entra una dependencia externa.
+- El catálogo de datos va **congelado** en `src/geoperu/datos/catalogo_*.json`
+  y se revisa una vez al año (`python -m geoperu catalogo --refrescar`).
+- Pruebas: `pytest` (sin red) y `pytest -m red` (contra los servidores reales).
+- El plugin lo **incrusta** en `nucleo/vendor/geoperu/`; no se edita esa copia.
 
 ## Sistema de agentes (`.claude/`)
 

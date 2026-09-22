@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoperu-py"
+version = "0.1.0"
+description = "Límites administrativos y áreas naturales protegidas del Perú, sin dependencias externas."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+keywords = ["peru", "inei", "sernanp", "geopackage", "limites administrativos", "qgis"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: GIS",
+]
+# Sin dependencias: solo biblioteca estándar. Es lo que permite incrustar el
+# paquete dentro de un plugin de QGIS sin pedirle al usuario un pip install.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/lefcgis/geoperu-py"
+Issues = "https://github.com/lefcgis/geoperu-py/issues"
+"Paquete original en R" = "https://github.com/PaulESantos/geoperu"
+
+[project.scripts]
+geoperu = "geoperu.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+geoperu = ["datos/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["red: requiere acceso a internet y a los servidores de origen"]
+# Las pruebas de red quedan fuera de la corrida por omisión: se piden con
+# `pytest -m red`. Una prueba que dependa de un servidor externo falla los
+# días que ese servidor está lento, y una prueba que falla por motivos
+# ajenos al código se acaba ignorando, y con ella toda la suite.
+addopts = "-m 'not red'"
