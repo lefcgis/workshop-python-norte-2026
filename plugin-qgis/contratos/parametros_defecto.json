@@ -1,0 +1,49 @@
+{
+  "$comment": "Valores por defecto copiados de peruocc::configuracion_predeterminada() (R/config.R) y de los limites duros de cada API. Cambiar un valor aqui es una decision de producto, no de implementacion.",
+  "consulta": {
+    "limite_por_api": 500,
+    "$limite_por_api": "Registros por fuente y por lote. null = descarga completa (exige conteo previo verificable).",
+    "reintentos_api": 3,
+    "pausa_entre_lotes_s": 0.2,
+    "calidad_inat": "research"
+  },
+  "geometria": {
+    "tolerancia_simplificacion_m": 100,
+    "wkt_max_char": 1500,
+    "$wkt_max_char": "Presupuesto de caracteres del WKT enviado a GBIF. Al excederse: simplificar x3 hasta 6 veces; si aun excede, usar bounding box como fallback.",
+    "factor_escalado_tolerancia": 3,
+    "max_iteraciones_simplificacion": 6,
+    "max_area_ha_por_lote": 1000,
+    "max_lotes_espaciales": 16,
+    "umbral_macro_bloques_ha": 50000,
+    "orientacion_anillos": "CCW",
+    "$orientacion_anillos": "Antihoraria, estandar OGC/GBIF. GBIF rechaza o invierte el area de poligonos CW."
+  },
+  "limites_duros_api": {
+    "gbif": {
+      "endpoint_ocurrencias": "https://api.gbif.org/v1/occurrence/search",
+      "endpoint_taxonomia": "https://api.gbif.org/v1/species/match",
+      "limit_max_por_pagina": 300,
+      "offset_max": 100000,
+      "$offset_max": "offset + limit no puede exceder 100000. Por encima de eso corresponde una descarga citable (occurrence/download), no paginacion.",
+      "kingdom_key": { "Plantae": 6, "Animalia": 1 }
+    },
+    "inaturalist": {
+      "endpoint_observaciones": "https://api.inaturalist.org/v1/observations",
+      "per_page_max": 200,
+      "techo_paginacion": 10000,
+      "$techo_paginacion": "page*per_page <= 10000. Para ir mas alla se usa paginacion por id_above, o se parte la consulta por periodos.",
+      "rate_limit_recomendado_rps": 1,
+      "$rate_limit_recomendado_rps": "iNaturalist pide un maximo de ~60 peticiones/minuto y un User-Agent identificable."
+    },
+    "$verificacion": "Estos limites deben revalidarse contra la documentacion viva de cada API antes de publicar el plugin; el agente ingeniero-apis-biodiversidad es responsable de confirmarlos y dejar constancia en el reporte."
+  },
+  "entorno_objetivo": {
+    "qgis_min": "3.44",
+    "qgis_serie": "3.44 LTR (ultima LTR de la serie 3.x)",
+    "qt": "Qt5 / PyQt5",
+    "python": "3.12",
+    "dependencias_externas_permitidas": [],
+    "$dependencias_externas_permitidas": "Vacio a proposito: solo stdlib de Python y la API de QGIS/Qt que ya trae la instalacion. Sin pip install, sin geopandas, sin shapely, sin requests."
+  }
+}

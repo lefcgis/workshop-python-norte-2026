@@ -1,0 +1,39 @@
+{
+  "$comment": "Contrato de salida canonico. Derivado de peruocc::schema_ocurrencias() (R/project_utils.R). NINGUN agente puede anadir, quitar ni renombrar campos sin actualizar este archivo y la matriz de paridad.",
+  "schema_version": "1.0",
+  "origen": "peruocc 0.1.0 (CRAN) - Paul E. Santos Andrade",
+  "crs": "EPSG:4326",
+  "orden_columnas_estricto": true,
+  "campos": [
+    { "nombre": "occurrenceID",                  "tipo": "String",  "qgis": "QVariant.String", "nota": "GBIF: key. iNat: id. Identificador estable de la ocurrencia." },
+    { "nombre": "sourceRecordID",                "tipo": "String",  "qgis": "QVariant.String", "nota": "Identificador crudo tal como lo entrega la fuente." },
+    { "nombre": "sourceURL",                     "tipo": "String",  "qgis": "QVariant.String", "nota": "Permalink al registro. Requisito de trazabilidad." },
+    { "nombre": "datasetKey",                    "tipo": "String",  "qgis": "QVariant.String", "nota": "GBIF datasetKey. Vacio en iNat." },
+    { "nombre": "license",                       "tipo": "String",  "qgis": "QVariant.String", "nota": "Licencia del registro. No descartar: condiciona la reutilizacion." },
+    { "nombre": "basisOfRecord",                 "tipo": "String",  "qgis": "QVariant.String", "nota": "HUMAN_OBSERVATION / PRESERVED_SPECIMEN / etc." },
+    { "nombre": "scientificName",                "tipo": "String",  "qgis": "QVariant.String", "nota": "Nombre cientifico completo." },
+    { "nombre": "decimalLatitude",               "tipo": "Double",  "qgis": "QVariant.Double", "nota": "WGS84. Obligatorio finito para geometria." },
+    { "nombre": "decimalLongitude",              "tipo": "Double",  "qgis": "QVariant.Double", "nota": "WGS84. Obligatorio finito para geometria." },
+    { "nombre": "eventDate",                     "tipo": "String",  "qgis": "QVariant.String", "nota": "Se conserva como texto ISO-8601 parcial (GBIF entrega fechas incompletas)." },
+    { "nombre": "taxonRank",                     "tipo": "String",  "qgis": "QVariant.String", "nota": "SPECIES / GENUS / FAMILY ..." },
+    { "nombre": "kingdom",                       "tipo": "String",  "qgis": "QVariant.String", "nota": "Plantae / Animalia / ..." },
+    { "nombre": "phylum",                        "tipo": "String",  "qgis": "QVariant.String" },
+    { "nombre": "class",                         "tipo": "String",  "qgis": "QVariant.String", "nota": "Cuidado: 'class' es palabra reservada en Python. Usar clave de dict, no atributo." },
+    { "nombre": "order",                         "tipo": "String",  "qgis": "QVariant.String", "nota": "Cuidado: 'order' es palabra reservada en SQL. Citar en DDL de GeoPackage." },
+    { "nombre": "family",                        "tipo": "String",  "qgis": "QVariant.String" },
+    { "nombre": "genus",                         "tipo": "String",  "qgis": "QVariant.String" },
+    { "nombre": "species",                       "tipo": "String",  "qgis": "QVariant.String" },
+    { "nombre": "recordedBy",                    "tipo": "String",  "qgis": "QVariant.String", "nota": "Colector u observador." },
+    { "nombre": "coordinateUncertaintyInMeters", "tipo": "Double",  "qgis": "QVariant.Double", "nota": "Clave para filtros de calidad posicional." },
+    { "nombre": "source",                        "tipo": "String",  "qgis": "QVariant.String", "dominio": ["GBIF", "iNaturalist"], "nota": "Campo de simbologia por defecto (color_por = 'source')." },
+    { "nombre": "district",                      "tipo": "String",  "qgis": "QVariant.String", "nota": "Nombre oficial INEI del distrito de la unidad consultada." },
+    { "nombre": "province",                      "tipo": "String",  "qgis": "QVariant.String", "nota": "Nombre oficial INEI de la provincia." },
+    { "nombre": "department",                    "tipo": "String",  "qgis": "QVariant.String", "nota": "Nombre oficial INEI del departamento." }
+  ],
+  "reglas_invariantes": [
+    "El orden y los nombres de campo se replican exactamente: el CSV del plugin debe ser diff-comparable contra el CSV de peruocc.",
+    "Los nombres de campo son Darwin Core en ingles; NO traducirlos aunque la UI este en espanol.",
+    "district/province/department se rellenan desde el limite administrativo consultado, no desde los metadatos de la fuente.",
+    "Una fila sin decimalLatitude/decimalLongitude finitos entra al CSV pero se omite del GeoJSON y de la capa de puntos."
+  ]
+}
